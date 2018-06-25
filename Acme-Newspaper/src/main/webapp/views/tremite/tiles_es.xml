@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+	<definition name="tremite/list" extends="master.page">	
+		<put-attribute name="title" value="Lista de tremites" />
+		<put-attribute name="body" value="/views/tremite/list.jsp" />
+	</definition>
+
+	<definition name="tremite/edit" extends="master.page">	
+		<put-attribute name="title" value="Edición de tremites" />
+		<put-attribute name="body" value="/views/tremite/edit.jsp" />
+	</definition>
+	
+	<definition name="tremite/display" extends="master.page">	
+		<put-attribute name="title" value="Mostrar tremite" />
+		<put-attribute name="body" value="/views/tremite/display.jsp" />
+	</definition>
+	
+</tiles-definitions>
